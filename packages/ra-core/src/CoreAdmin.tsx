@@ -86,7 +86,7 @@ React-admin requires a valid dataProvider function to work.`);
 
     renderCore() {
         const {
-            appLayout,
+            appLayout = DefaultLayout,
             authProvider,
             children,
             customRoutes = [],
