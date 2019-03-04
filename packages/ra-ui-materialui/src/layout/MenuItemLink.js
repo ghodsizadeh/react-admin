@@ -16,7 +16,7 @@ const styles = theme => createStyles({
     },
     icon: { 
         paddingLeft: theme.direction==='rtl'? '1.2em':0,
-    paddingRight: theme.direction ==='rtl' ? 0 :'1.2em'
+        paddingRight: theme.direction ==='rtl' ? 0 :'1.2em'
 },
 });
 
