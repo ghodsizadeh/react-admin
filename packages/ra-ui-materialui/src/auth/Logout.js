@@ -13,7 +13,8 @@ const styles = theme => ({
         color: theme.palette.text.secondary,
     },
     iconMenuPaddingStyle: {
-        paddingRight: '1.2em',
+        paddingLeft: theme.direction==='rtl'? '1.2em':0,
+        paddingRight: theme.direction ==='rtl' ? 0 :'1.2em'
     },
     iconPaddingStyle: {
         paddingRight: theme.spacing.unit,

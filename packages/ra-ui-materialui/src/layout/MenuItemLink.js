@@ -14,7 +14,10 @@ const styles = theme => ({
     active: {
         color: theme.palette.text.primary,
     },
-    icon: { paddingRight: '1.2em' },
+    icon: { 
+        paddingLeft: theme.direction==='rtl'? '1.2em':0,
+    paddingRight: theme.direction ==='rtl' ? 0 :'1.2em'
+},
 });
 
 export class MenuItemLink extends Component {
